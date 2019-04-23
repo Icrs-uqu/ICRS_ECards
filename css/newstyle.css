@@ -1,5 +1,5 @@
 body {
-  background-image: url("bc1.png");
+
   background-repeat: repeat-y;
   background-size: cover;
   color: #fff;
@@ -45,7 +45,7 @@ h1{
 }
 .controls__btn {
   background: dodgerblue;
-  color: #fff;
+  color: #CFC0A5;
   border: none;
   font-size: 1em;
 }
@@ -54,7 +54,7 @@ h1{
   font-size: 1.2em;
   padding-top: .3em;
   margin-bottom: 2em;
-  color:#CFC0A5;
+  color:#fff;
 }
 
 canvas {
@@ -89,4 +89,14 @@ canvas1.show {
 
 #canvasID1 {
   z-index: 9999;
+}
+
+label {
+  background-color: #CFC0A5;
+  color: black;
+  font-weight: bold;
+  padding: 4px;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: xx-small;
 }

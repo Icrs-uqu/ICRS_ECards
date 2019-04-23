@@ -31,7 +31,7 @@ ctx.drawImage(img,0,0);
 function DrawText() {
     ctx.fillStyle = "#fbf2eb"; 
     ctx.textBaseline = 'middle';
-    ctx.font = "30px 'Montserrat'";
+    ctx.font = "23px 'Montserrat'";
 }
 function DynamicText(img) {
   document.getElementById('name').addEventListener('keyup', function() {
@@ -90,7 +90,7 @@ function DrawText1() {
     ctx1.fillStyle = "#7E9E86"; 
     ctx1.textBaseline = 'middle';
  
-    ctx1.font = "30px 'Montserrat'";
+    ctx1.font = "23px 'Montserrat'";
 }
 function DynamicText1(img1) {
   document.getElementById('name').addEventListener('keyup', function() {
