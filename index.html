@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>صمم بطاقة تهنئة مع معهد البحوث والدراسات الاستشارية</title>
+  
+      <link rel="stylesheet" href="css/newstyle.css">
+  
+</head>
+
+<body>
+<div class="header">
+  <h1>صمم بطاقة التهنئة الخاصة بك</h1>
+    </div>
+<div class="page-wrap">
+  <div class="controls">
+   <!-- <input class="controls__input" type="file" id="imageLoader" name="imageLoader"/>
+    <label class="controls__label" for="name">First, choose an image.</label> -->
+    <br>
+    <br>
+    <input class="controls__input" id="name" type="text" value=""/>
+    <label class="controls__label" for="name">إضافة نص </label>
+  </div>
+  <div id="canvas-wrap">
+     <canvas style="display:block" id="imageCanvas" width=520px height=520px>
+        <canvas id="canvasID"></canvas>
+    </canvas> 
+  </div>
+    <br>
+    <button  type="button">    <a id="download" download="myImage.jpg" href="" onclick="download_img(this);">تنزيل</a>
+</button>
+        <br>
+    <br>
+
+     <div id="canvas-wrap1">
+     <canvas style="display:block" id="imageCanvas1" width=520px height=520px>
+        <canvas id="canvasID1"></canvas>
+    </canvas> 
+  </div>  
+     <br>
+    <button  type="button">    <a id="download1" download="myImage.jpg" href="" onclick="download_img1(this);">تنزيل</a>
+</button>
+    
+</div>
+    
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js'></script>
+
+  
+
+    <script  src="js/newindex.js"></script>
+
+
+
+
+</body>
+
+</html>

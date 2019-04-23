@@ -1,0 +1,54 @@
+body {
+  background: #222;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-bottom: 3em;
+}
+.page-wrap {
+  display: inline-block;
+  margin: 2em auto;
+}
+.controls {
+  &__input {
+    display: block;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    font-size: 1em;
+    padding-bottom: .5em;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+    outline: none;
+    color: #fff;
+  }
+  &__btn {
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+  }
+  &__label {
+     display: block;
+    font-size: .8em;
+    padding-top: .3em;
+    margin-bottom: 2em;
+  }
+}
+canvas {
+  background-color: #eee;
+  // opacity: 0;
+  transition: opacity .3s;
+  &.show {
+    opacity: 1;
+  }
+}
+.canvas-wrap {
+  margin-top: 50px;
+  position: relative;
+}
+#canvasID {
+  z-index: 9999;
+}

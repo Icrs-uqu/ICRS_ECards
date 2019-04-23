@@ -1,0 +1,92 @@
+body {
+  background-image: url("bc1.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-bottom: 3em;
+    align-content: center;
+}
+
+.page-wrap {
+  display: inline-block;
+  margin: 2em auto;
+}
+h1{
+    margin-top: 7%;
+    margin-bottom: 15px;
+    color: #6A5B44;
+}
+
+.header{
+    width: 80%;
+    height: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.controls{
+    margin-top:40px;
+}
+.controls__input {
+  display: block;
+  margin: 0 auto;
+  background: none;
+  border: none;
+  font-size:
+  padding-bottom: .5em;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  outline: none;
+  color: #6A5B44;
+}
+.controls__btn {
+  background: dodgerblue;
+  color: #fff;
+  border: none;
+  font-size: 1em;
+}
+.controls__label {
+  display: block;
+  font-size: 1.2em;
+  padding-top: .3em;
+  margin-bottom: 2em;
+  color:#CFC0A5;
+}
+
+canvas {
+  background-color: #eee;
+  transition: opacity .3s;
+}
+canvas.show {
+  opacity: 1;
+}
+
+.canvas-wrap {
+  margin-top: 50px;
+  position: relative;
+}
+
+#canvasID {
+  z-index: 9999;
+}
+
+canvas1 {
+  background-color: #6a5b44;
+  transition: opacity .3s;
+}
+canvas1.show {
+  opacity: 1;
+}
+
+.canvas-wrap1 {
+  margin-top: 50px;
+  position: relative;
+}
+
+#canvasID1 {
+  z-index: 9999;
+}
