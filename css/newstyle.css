@@ -34,17 +34,18 @@ h1{
     margin-top:40px;
 }
 .controls__input {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
+    margin-bottom: 5px;
   background: none;
   border: 1px solid #ccc;;
   font-size:1.3em;
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
   border-bottom: 2px solid #ccc;
   text-align: center;
   outline: none;
   color: #6A5B44;
-    width: 100%;
+    width: 340px;
     
 }
 .controls__btn {
@@ -54,11 +55,12 @@ h1{
   font-size: 1em;
 }
 .controls__label {
-  display: block;
+  display: inline-block;
   font-size: 1.2em;
   padding-top: .3em;
   margin-bottom: 2em;
   color:#fff;
+    width: 340px;
 }
 
 canvas {

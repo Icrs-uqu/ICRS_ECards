@@ -31,7 +31,7 @@ ctx.drawImage(img,0,0);
 function DrawText() {
     ctx.fillStyle = "#fbf2eb"; 
     ctx.textBaseline = 'middle';
-    ctx.font = "23px 'Montserrat'";
+    ctx.font = "20px 'Montserrat'";
 }
 function DynamicText(img) {
   document.getElementById('name').addEventListener('keyup', function() {
@@ -39,7 +39,7 @@ function DynamicText(img) {
     DrawOverlay(img);
     DrawText(); 
     text_title = this.value;
-    ctx.fillText(text_title, 180, 240);
+    ctx.fillText(text_title, 170, 250);
     ctx.textAlign = 'center';
 
   });
@@ -90,7 +90,7 @@ function DrawText1() {
     ctx1.fillStyle = "#7E9E86"; 
     ctx1.textBaseline = 'middle';
  
-    ctx1.font = "23px 'Montserrat'";
+    ctx1.font = "20px 'Montserrat'";
 }
 function DynamicText1(img1) {
   document.getElementById('name').addEventListener('keyup', function() {
