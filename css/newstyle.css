@@ -35,16 +35,17 @@ h1{
 }
 .controls__input {
   display: inline-block;
-  margin: 0 auto;
-    margin-bottom: 5px;
+  margin-bottom: 5px;
   background: none;
   border: 1px solid #ccc;;
   font-size:1.3em;
-  padding-bottom: 0.5em;
   border-bottom: 2px solid #ccc;
   text-align: center;
-  outline: none;
   color: #6A5B44;
+    
+    
+    
+  padding-top: .3em;
     width: 340px;
     
 }
