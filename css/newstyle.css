@@ -50,7 +50,6 @@ h1{
     
 }
 .controls__btn {
-  background: CFC0A5;
   color: #CFC0A5;
   border: 1px solid #ccc;;
   border-bottom: 2px solid #ccc;
@@ -119,6 +118,14 @@ label {
   text-transform: uppercase;
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: xx-small;
+}
+
+a {
+  color: #5E8290;
+  font-weight: bold;
+    text-decoration: none;
+  padding: 4px;
+  font-size: 12pt;
 }
 
 #footer {
