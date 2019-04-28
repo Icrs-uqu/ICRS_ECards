@@ -50,6 +50,7 @@ h1{
     
 }
 .controls__btn {
+    background: #ccc;
   color: #CFC0A5;
   border: 1px solid #ccc;;
   border-bottom: 2px solid #ccc;
@@ -121,6 +122,7 @@ label {
 }
 
 a {
+    
   color: #5E8290;
   font-weight: bold;
     text-decoration: none;
