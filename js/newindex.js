@@ -20,7 +20,7 @@ function DrawPlaceholder() {
         DrawText();
         DynamicText(img)
 };
-    img.src = 'card12.jpg';
+    img.src = '2.jpg';
   
 }
 function DrawOverlay(img) {
@@ -39,7 +39,7 @@ function DynamicText(img) {
     DrawOverlay(img);
     DrawText(); 
     text_title = this.value;
-    ctx.fillText(text_title, 255, 370);
+    ctx.fillText(text_title, 180, 240);
     ctx.textAlign = 'center';
 
   });
@@ -78,7 +78,7 @@ function DrawPlaceholder1() {
         DrawText1();
         DynamicText1(img1)
 };
-    img1.src = 'card11.jpeg';
+    img1.src = '1.jpg';
   
 }
 function DrawOverlay1(img1) {
@@ -98,7 +98,7 @@ function DynamicText1(img1) {
     DrawOverlay1(img1);
     DrawText1(); 
     text_title = this.value;
-    ctx1.fillText(text_title, 370, 260);
+    ctx1.fillText(text_title, 250, 180);
     ctx1.textAlign = 'center';
 
   });
