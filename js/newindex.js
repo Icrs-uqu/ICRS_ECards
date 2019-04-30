@@ -99,33 +99,33 @@ download_img = function(el) {
   el.href = image;
 };
 
-download_img = function(el) {
-  var image = canvas1.toDataURL("image/jpg");
-  el.href = image;
+download_img1 = function(el) {
+  var imag1 = canvas1.toDataURL("image/jpg");
+  el.href = image1;
 };
 
-download_img = function(el) {
-  var image = canvas2.toDataURL("image/jpg");
-  el.href = image;
+download_img2 = function(el) {
+  var image2 = canvas2.toDataURL("image/jpg");
+  el.href = image2;
 };
 
-download_img = function(el) {
-  var image = canvas3.toDataURL("image/jpg");
-  el.href = image;
+download_img3 = function(el) {
+  var image3 = canvas3.toDataURL("image/jpg");
+  el.href = image3;
 };
 
-download_img = function(el) {
-  var image = canvas4.toDataURL("image/jpg");
-  el.href = image;
+download_img4 = function(el) {
+  var image4 = canvas4.toDataURL("image/jpg");
+  el.href = image4;
 };
 
-download_img = function(el) {
-  var image = canvas5.toDataURL("image/jpg");
-  el.href = image;
+download_img5 = function(el) {
+  var image5 = canvas5.toDataURL("image/jpg");
+  el.href = image5;
 };
 
-download_img = function(el) {
-  var image = canvas6.toDataURL("image/jpg");
-  el.href = image;
+download_img6 = function(el) {
+  var image6 = canvas6.toDataURL("image/jpg");
+  el.href = image6;
 };
 
