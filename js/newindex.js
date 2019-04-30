@@ -100,7 +100,7 @@ download_img = function(el) {
 };
 
 download_img1 = function(el) {
-  var imag1 = canvas1.toDataURL("image/jpg");
+  var image1 = canvas1.toDataURL("image/jpg");
   el.href = image1;
 };
 
