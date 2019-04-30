@@ -12,9 +12,23 @@ body {
 }
 
 .page-wrap {
-  display: inline-block;
-  margin: 2em auto;
+   display: flex;   
+  flex-wrap: wrap;
+   margin: 2em auto;
+   align-items: center;
+    padding-left: 11%;
+    padding-right: 11%;
+
 }
+
+.canvas {
+   display: block;   
+margin-left: 10px;
+    margin-bottom: 15px;
+    align-items: center;
+   
+}
+
 h1{
     margin-top: 7%;
     margin-bottom: 15px;
@@ -22,16 +36,18 @@ h1{
 }
 
 .header-up {
-    height: 400px;
+    height: 640px;
     background-size: cover;
     background-position: center top;
-    background-image: url("h2.jpg");    
+    background-image: url("hh.jpg");    
 }
 
 
 
 .controls{
     margin-top:40px;
+       margin: 2em auto;
+
 }
 
 .controls__input {
@@ -42,7 +58,7 @@ h1{
   border-bottom: 2px solid #ccc;
   text-align: center;
   color: #6A5B44;
-        width: 80%;
+   width:350px;
 
     
     
@@ -66,7 +82,7 @@ h1{
   color:#fff;
       margin-bottom: 5px;
 
-    width: 80%;
+    width: 350px;
 }
 
 canvas {
@@ -145,11 +161,10 @@ a {
          padding: 10px 40px 16px;
          list-style: none;
          background-color: #eee;
-       height: 670px;
     background-size: cover;
      background-position: center top;
     background-image: url("h2.jpg");    
 }
-         width: calc(50% - 80px);
+         
     }
 }
