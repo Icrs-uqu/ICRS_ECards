@@ -100,8 +100,37 @@ download_img = function(el) {
 };
 
 
- document.getElementById('download').addEventListener
 document.getElementById("download").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download1").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download2").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download3").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download4").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download5").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});
+
+document.getElementById("download6").addEventListener("click", function(){
  var image = canvas.toDataURL("image/jpg");
   this.href = image;
 });
