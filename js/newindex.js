@@ -106,31 +106,31 @@ document.getElementById("download").addEventListener("click", function(){
 });
 
 document.getElementById("download1").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas1.toDataURL("image/jpg");
   this.href = image;
 });
 
 document.getElementById("download2").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas2.toDataURL("image/jpg");
   this.href = image;
 });
 
 document.getElementById("download3").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas3.toDataURL("image/jpg");
   this.href = image;
 });
 
 document.getElementById("download4").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas4.toDataURL("image/jpg");
   this.href = image;
 });
 
 document.getElementById("download5").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas5.toDataURL("image/jpg");
   this.href = image;
 });
 
 document.getElementById("download6").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
+ var image = canvas6.toDataURL("image/jpg");
   this.href = image;
 });
