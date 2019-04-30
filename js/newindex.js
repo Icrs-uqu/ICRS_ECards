@@ -13,13 +13,13 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#D3CFC8",'33.jpg',175,260));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#D3CFC8",'33.jpg',170,260));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
 var ctx2 = canvas2.getContext('2d');
 var img2 = new Image();
-img1.crossOrigin="anonymous";
+img2.crossOrigin="anonymous";
 
 window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#E6E0DB",'44.jpg',90,300));
 
@@ -27,25 +27,25 @@ window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#E6E0DB",'44.jpg',90,
 var canvas3 = document.getElementById('imageCanvas3');
 var ctx3 = canvas3.getContext('2d');
 var img3 = new Image();
-img1.crossOrigin="anonymous";
+img3.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img3,ctx3,"#7E9E85",'55.jpg',250,180));
+window.addEventListener('load', DrawPlaceholder(img3,ctx3,"#7E9E85",'55.jpg',250,185));
 
 
 
 var canvas4 = document.getElementById('imageCanvas4');
 var ctx4 = canvas4.getContext('2d');
 var img4 = new Image();
-img1.crossOrigin="anonymous";
+img4.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#7E9E85",'66.jpg',250,170));
+window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#7E9E85",'66.jpg',250,175));
 
 
 
 var canvas5 = document.getElementById('imageCanvas5');
 var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
-img1.crossOrigin="anonymous";
+img5.crossOrigin="anonymous";
 
 window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#A89172",'11.jpg',170,210));
 
@@ -54,9 +54,9 @@ window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#A89172",'11.jpg',170
 var canvas6 = document.getElementById('imageCanvas6');
 var ctx6 = canvas6.getContext('2d');
 var img6 = new Image();
-img1.crossOrigin="anonymous";
+img6.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img6,ctx6,"#D3CFC8",'33.jpg',175,260));
+window.addEventListener('load', DrawPlaceholder(img6,ctx6,"#D3CFC8",'33.jpg',170,260));
 
 
 
@@ -91,28 +91,8 @@ function DynamicText(canv,photo,clr,x,y) {
 
   });
 }
-function handleImage(e) {
-    var reader = new FileReader();
-    var img = "";
-    var src = "";
-    reader.onload = function(event) {
-        img = new Image();
-        img.onload = function() {
-            canvas.width = img.width;
-            canvas.height = img.height;
-            ctx.drawImage(img,0,0);
-        }
-    img.src = event.target.result;
-        src = event.target.result;
-        canvas.classList.add("show");
-        DrawOverlay(photo,canv);
-        DrawText(ctx,"#567837"); 
-        DynamicText(img);   
-    }
 
-    reader.readAsDataURL(e.target.files[0]); 
- 
-}
+
 
 download_img = function(el) {
   var image = canvas.toDataURL("image/jpg");
@@ -120,11 +100,8 @@ download_img = function(el) {
 };
 
 
-
-
-
-g1 = function(el1) {
-  var image1 = canvas1.toDataURL("image/jpg");
-  el1.href = image1;
-};
-
+ document.getElementById('download').addEventListener
+document.getElementById("download").addEventListener("click", function(){
+ var image = canvas.toDataURL("image/jpg");
+  this.href = image;
+});

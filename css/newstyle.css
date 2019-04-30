@@ -13,7 +13,7 @@ body {
 
 .page-wrap {
    display: flex;   
-  flex-wrap: wrap;
+   flex-wrap: wrap;
    margin: 2em auto;
    align-items: center;
     padding-left: 11%;
@@ -39,7 +39,7 @@ h1{
     height: 640px;
     background-size: cover;
     background-position: center top;
-    background-image: url("hh.jpg");    
+    background-image: url("h2.jpg");    
 }
 
 
@@ -141,7 +141,7 @@ a {
     
   color: #5E8290;
   font-weight: bold;
-    text-decoration: none;
+  text-decoration: none;
   padding: 4px;
   font-size: 12pt;
 }
