@@ -99,38 +99,33 @@ download_img = function(el) {
   el.href = image;
 };
 
+download_img = function(el) {
+  var image = canvas1.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download").addEventListener("click", function(){
- var image = canvas.toDataURL("image/jpg");
-  this.href = image;
-});
+download_img = function(el) {
+  var image = canvas2.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download1").addEventListener("click", function(){
- var image = canvas1.toDataURL("image/jpg");
-  this.href = image;
-});
+download_img = function(el) {
+  var image = canvas3.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download2").addEventListener("click", function(){
- var image = canvas2.toDataURL("image/jpg");
-  this.href = image;
-});
+download_img = function(el) {
+  var image = canvas4.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download3").addEventListener("click", function(){
- var image = canvas3.toDataURL("image/jpg");
-  this.href = image;
-});
+download_img = function(el) {
+  var image = canvas5.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download4").addEventListener("click", function(){
- var image = canvas4.toDataURL("image/jpg");
-  this.href = image;
-});
+download_img = function(el) {
+  var image = canvas6.toDataURL("image/jpg");
+  el.href = image;
+};
 
-document.getElementById("download5").addEventListener("click", function(){
- var image = canvas5.toDataURL("image/jpg");
-  this.href = image;
-});
-
-document.getElementById("download6").addEventListener("click", function(){
- var image = canvas6.toDataURL("image/jpg");
-  this.href = image;
-});
