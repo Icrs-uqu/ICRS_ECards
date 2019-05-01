@@ -157,20 +157,10 @@ a {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 1100px){
-    .header-up {
-         padding: 10px 40px 16px;
-         list-style: none;
-         background-color: #eee;
-    background-size: cover;
-     background-position: center top;
-    background-image: url("h2.jpg");    
-}
-         
-    }
 
 
-@media screen and (max-width: 1000px){
+
+@media screen and (max-width: 600px){
    .page-wrap {
   
     padding-left: 2%;
@@ -184,8 +174,33 @@ a {
          background-color: #eee;
     background-size: cover;
      background-position: center top;
-    background-image: url("small.jpg");    
+    background-image: url("smallss.jpg");    
 }
+    }
+
+@media screen and (min-width: 600px){
+      .page-wrap {
+  
+    padding-left: 2%;
+    padding-right: 2%;
+
+    }
+      .header-up {
+        
+    background-image: url("med.jpg");    
+}
+    }
+
+@media screen and (min-width: 1100px){
+    .header-up {
+         padding: 10px 40px 16px;
+         list-style: none;
+         background-color: #eee;
+    background-size: cover;
+     background-position: center top;
+    background-image: url("med.jpg");    
+}
+         
     }
 
 @media screen and (min-width: 1800px){
