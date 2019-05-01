@@ -5,7 +5,7 @@ var ctx = canvas.getContext('2d');
 var img = new Image();
 img.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img,ctx,"#A89172",'11.jpg',170,210));
+window.addEventListener('load', DrawPlaceholder(img,ctx,"#7E9E85",'111.jpg',315,240));
 
 
 var canvas1 = document.getElementById('imageCanvas1');
@@ -13,7 +13,7 @@ var ctx1 = canvas1.getContext('2d');
 var img1 = new Image();
 img1.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#D3CFC8",'33.jpg',170,260));
+window.addEventListener('load', DrawPlaceholder(img1,ctx1,"#D3CFC8",'222.jpg',220,330));
 
 
 var canvas2 = document.getElementById('imageCanvas2');
@@ -21,7 +21,7 @@ var ctx2 = canvas2.getContext('2d');
 var img2 = new Image();
 img2.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#E6E0DB",'44.jpg',90,300));
+window.addEventListener('load', DrawPlaceholder(img2,ctx2,"#EeEdDf",'333.jpg',110,380));
 
 
 var canvas3 = document.getElementById('imageCanvas3');
@@ -29,7 +29,7 @@ var ctx3 = canvas3.getContext('2d');
 var img3 = new Image();
 img3.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img3,ctx3,"#7E9E85",'55.jpg',250,185));
+window.addEventListener('load', DrawPlaceholder(img3,ctx3,"#A89172",'444.jpg',215,250));
 
 
 
@@ -38,7 +38,7 @@ var ctx4 = canvas4.getContext('2d');
 var img4 = new Image();
 img4.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#7E9E85",'66.jpg',250,175));
+window.addEventListener('load', DrawPlaceholder(img4,ctx4,"#7E9E85",'555.jpg',315,220));
 
 
 
@@ -47,7 +47,7 @@ var ctx5 = canvas5.getContext('2d');
 var img5 = new Image();
 img5.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#A89172",'11.jpg',170,210));
+window.addEventListener('load', DrawPlaceholder(img5,ctx5,"#D3CFC8",'666.jpg',220,350));
 
 
 
@@ -56,7 +56,15 @@ var ctx6 = canvas6.getContext('2d');
 var img6 = new Image();
 img6.crossOrigin="anonymous";
 
-window.addEventListener('load', DrawPlaceholder(img6,ctx6,"#D3CFC8",'33.jpg',170,260));
+window.addEventListener('load', DrawPlaceholder(img6,ctx6,"#EeEdDf",'777.jpg',110,380));
+
+
+var canvas7 = document.getElementById('imageCanvas7');
+var ctx7 = canvas7.getContext('2d');
+var img7 = new Image();
+img7.crossOrigin="anonymous";
+
+window.addEventListener('load', DrawPlaceholder(img7,ctx7,"#A89172",'888.jpg',215,260));
 
 
 
@@ -78,7 +86,7 @@ canv.drawImage(photo,0,0);
 function DrawText(canv,fillcolor) {
     canv.fillStyle = fillcolor; 
     canv.textBaseline = 'middle';
-    canv.font = "25px 'Montserrat'";
+    canv.font = "bold 23px Al Bayan";
 }
 function DynamicText(canv,photo,clr,x,y) {
   document.getElementById('name').addEventListener('keyup', function() {
